@@ -46,19 +46,19 @@ function handleChange(e){
       {isLoading?<p>Loading data...</p>:<></>}
       {details.temp_c?
       <div  className='container'>
-        <div className='weather-card'>
+        <div className='weather-cards'>
           <h3>Temperature</h3>
           <p>{details.temp_c}°C</p>
         </div>
-        <div className='weather-card'>
+        <div className='weather-cards'>
           <h3>Humidity</h3>
           <p>{details.humidity}%</p>
         </div>
-        <div className='weather-card'>
+        <div className='weather-cards'>
           <h3>Condition</h3>
           <p>{details.condition.text}</p>
         </div>
-        <div className='weather-card'>
+        <div className='weather-cards'>
           <h3>Wind Speed</h3>
           <p>{details.wind_kph}kph</p>
         </div>
