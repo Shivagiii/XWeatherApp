@@ -38,8 +38,8 @@ function handleChange(e){
 
   return (
     <div className="App">
-      <form onSubmit={ fetchWeather}>
-        <input type='text' value={city} onChange={handleChange}/>
+      <form onSubmit={fetchWeather}>
+        <input type="text" value={city} onChange={handleChange}/>
         <button type='submit'>Search</button>
       </form>
 
