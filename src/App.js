@@ -73,6 +73,7 @@ function App() {
          <ExtraDetails current={forecast.current} forecast={forecast.forecastday[0]}/>
         </div>
         <div className="nextDays flex ">
+          Data of 3 days
         {forecast.forecastday.map((day) => (
             <FutureDays day={day} />
           ))} 
